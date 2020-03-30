@@ -7,7 +7,5 @@ apt-get -y install build-essential
 echo ". /opt/openfoam6/etc/bashrc" >> $HOME/.bashrc
 . $HOME/.bashrc
 simpleFoam -help
-echo "export DISPLAY=:0" >> ${HOME}/.bashrc
-. $HOME/.bashrc
 apt-get -y install gedit gedit-plugins
 apt-get -y install gnuplot gnuplot-x11 gnuplot-doc libgd-tools
